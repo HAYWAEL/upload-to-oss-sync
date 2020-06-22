@@ -11,7 +11,7 @@ const path = require('path')
     bucket
   }
  * local: 本地地址 需要上传的文件目录位置
- * osspath: 远端oss的上传目录 例如： test / demo 则文件上传到oss的test / demo的目录下面
+ * osspath: 远端oss的上传目录 例如： test/demo 则文件上传到oss的test/demo的目录下面
  * @param {*} {config, local, path}
  */
 function uploadToOss({
